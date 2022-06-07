@@ -1,0 +1,28 @@
+main{
+      height: 95vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+main > div{
+      margin: 20px;
+}
+.avatar{
+      width: 375px;
+      height: 450px;
+      background-color: #0073EA;
+      border-radius: 0 100px 0 100px;
+
+      position: relative;
+}
+.avatar > img{
+      position: absolute;
+      filter: drop-shadow(-20px 10px 15px #fff4);
+      top: 20px;
+}
+.quote{
+      width: 375px;
+}
+.quote p{
+      margin-bottom: 30px;
+}

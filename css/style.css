@@ -1,0 +1,120 @@
+*{
+      font-family: sans-serif;
+}
+
+body{
+      margin: 20px 40px;
+      overflow: hidden;
+}
+
+header{
+      display: flex;
+      justify-content: flex-end;
+}
+#hamburger:hover{
+      cursor: pointer;
+}
+#hamburger .layer{
+      width: 30px;
+      height: 5px;
+      background-color: #0073EA;
+      margin: 5px 0;
+      border-radius: 10px;
+}
+
+.btn{
+      text-decoration: none;
+      font-size: 0.9em;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: 700;
+}
+
+.btn-primary{
+      background-color: #0073EA;
+      color: white;
+}
+.btn-primary:hover{
+      background-color: #0060B9;
+}
+
+.btn-primary-inv{
+      background-color: white;
+      color: #0073EA;
+}
+.btn-primary-inv:hover{
+      background-color: #ccc;
+}
+
+.shade{
+      box-shadow: -1px 3px 4px #E6E9EF;
+}
+
+.input-text{
+      padding: 7px 10px;
+      border-radius: 5px;
+      border: 2px solid #E6E9EF;
+}
+
+label{
+      font-weight: 600;
+      color: #808080;
+}
+.optional::after{
+      content: " (optional)";
+}
+
+#sidebar{
+      padding: 20px 10px 0 10px;
+      box-sizing: content-box;
+      color: white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 20px 0 0 0 ;
+      width: 400px;
+      height: 100%;
+      background-color: #0073EA;
+      transition: 500ms;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+#sidebar > .menu{
+      margin: 30px 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+#sidebar > .menu * {
+      text-decoration: none;
+      color: white;
+      margin: 0 0 20px 0;
+}
+
+#sidebar > .account{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 45px;
+}
+#sidebar > .account * {
+      margin: 0 10px;
+}
+
+#fog{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #323338dd;
+}
+.shide{
+      right: -500px !important;
+}
+.fhide{
+      display: none;
+}

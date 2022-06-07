@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Bendahara | Signup</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/signup.css" />
+  </head>
+  <body>
+    <header>
+      <div id="hamburger" onclick="show()">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+      </div>
+    </header>
+    <main>
+      <div class="avatar">
+        <img src="../assets/Badrun 5.png" />
+      </div>
+      <form action="#">
+        <h2>Daftar</h2>
+        <label for="email">Nama Lengkap</label>
+        <input
+          class="input-text"
+          placeholder="Nama Lengkap"
+          type="text"
+          name="nLengkap"
+          id="nLengkap"
+        />
+        <label for="email">Email</label>
+        <input
+          class="input-text"
+          placeholder="Email"
+          type="email"
+          name="email"
+          id="email"
+        />
+        <label for="pw">Password</label>
+        <input
+          class="input-text"
+          placeholder="Password"
+          type="password"
+          name="pw"
+          id="pw"
+        />
+        <label for="pw">Re-Password</label>
+        <input
+          class="input-text"
+          placeholder="Re-Password"
+          type="password"
+          name="rpw"
+          id="rpw"
+        />
+        <div class="togglePw" onclick="togglePw()">
+          <input type="checkbox" name="showPw" id="showPw" />
+          <label for="showPw">Show Password</label>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          Daftar Sekarang &raquo;
+        </button>
+        <a class="btn btn-primary-inv shade" href="./login.html">Daftar dengan akun lain?</a>
+        <a href="./login.html">Sudah punya akun?</a>
+      </form>
+    </main>
+    <div id="fog" class="fhide" onclick="show()"></div>
+    <div id="sidebar" class="shide">
+      <div class="menu">
+        <a href="#">Plan</a>
+        <a href="#">About Us</a>
+      </div>
+      <div class="account">
+        <a href="./signup.html" class="btn btn-primary-inv">Daftar</a>
+        atau
+        <a href="./login.html" class="btn btn-primary-inv">Masuk</a>
+      </div>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
