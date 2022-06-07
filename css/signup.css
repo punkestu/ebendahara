@@ -45,12 +45,14 @@ main > form > a{
       align-self: center;
 }
 main > form > h4{
-      margin-top: 40px;
+      margin-top: 15px;
+      margin-bottom: 5px;
 }
 main > form > a{
       margin-top: 20px;
       color: #0073EA;
 }
 main > form > .otherAccount{
-      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
 }
