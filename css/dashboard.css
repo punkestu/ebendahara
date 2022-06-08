@@ -1,0 +1,153 @@
+main {
+      display: flex;
+      justify-content: center;
+}
+
+main>.container {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      width: 135vh;
+}
+
+/* banner and carousel ---------------- */
+
+main>.container>#banner {
+      margin: 15px 0;
+      padding: 15px;
+      box-sizing: content-box;
+      border-radius: 20px;
+      height: 40vh;
+      background-color: #0060B9;
+}
+
+main>.container>#banner>#images{
+      width: inherit;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+}
+
+main>.container>#banner>#images>img{
+      width: inherit;
+      height: inherit;
+      object-fit: contain;
+}
+
+main>.container>#banner>#images>.bhide{
+      display: none;
+}
+
+#stepper{
+      display: flex;
+      justify-content: center;
+}
+
+.step{
+      height: 10px;
+      width: 10px;
+      border-radius: 10px;
+      margin: 0 5px;
+      background-color: #fff9;
+}
+
+.active{
+      width: 75px;
+      background-color: #fff;
+}
+/* ------------------------------------ */
+
+main>.container>.menu {
+      margin: 0;
+      height: 40vh;
+      display: flex;
+      justify-content:stretch;
+}
+
+main>.container>.menu>#tagihan {
+      height: 100%;
+      width: 50%;
+      margin-right: 7.5px;
+      padding: 50px 0;
+      box-sizing: border-box;
+      background-color: #258750;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+}
+
+main>.container>.menu>#tagihan>h2 {
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+      margin: 0;
+}
+
+main>.container>.menu>#tagihan>h3 {
+      color: white;
+      font-weight: normal;
+      font-size: 2em;
+}
+
+main>.container>.menu>#tagihan>.ltagihan {
+      width: 75%;
+      height: 10%;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      text-decoration: none;
+      background-color: #fff2;
+      color: #fffc;
+      font-weight: bold;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.ltagihan>.dl {
+      font-weight: normal;
+}
+
+main>.container>.menu>#saldo {
+      position: relative;
+      height: 100%;
+      width: 50%;
+      padding: 50px 0;
+      margin-left: 7.5px;
+      box-sizing: border-box;
+      background-color: #FFCB00;
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+}
+
+main>.container>.menu>#saldo>* {
+      z-index: 10;
+}
+
+main>.container>.menu>#saldo>h2 {
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+      margin: 0;
+}
+
+main>.container>.menu>#saldo>h3 {
+      color: white;
+      font-weight: normal;
+      font-size: 2em;
+}
+
+main>.container>.menu>#saldo>img {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      width: 300px;
+      height: 300px;
+}

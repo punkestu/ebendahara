@@ -47,6 +47,30 @@ header{
       background-color: #ccc;
 }
 
+.btn-yellow-inv{
+      background-color: white;
+      color: #FFCB00;
+}
+.btn-yellow-inv:hover{
+      background-color: #ccc;
+}
+
+.btn-green-inv{
+      background-color: white;
+      color: #258750;
+}
+.btn-green-inv:hover{
+      background-color: #ccc;
+}
+
+.btn-danger{
+      background-color: #D83A52;
+      color: white;
+}
+.btn-danger:hover{
+      background-color: #B63546;
+}
+
 .shade{
       box-shadow: -1px 3px 4px #E6E9EF;
 }
@@ -73,7 +97,7 @@ label{
       top: 0;
       right: 0;
       border-radius: 20px 0 0 0 ;
-      width: 400px;
+      width: 300px;
       height: 100%;
       background-color: #0073EA;
       transition: 500ms;
@@ -86,7 +110,6 @@ label{
       margin: 30px 50px;
       display: flex;
       flex-direction: column;
-      align-items: center;
 }
 #sidebar > .menu * {
       text-decoration: none;
