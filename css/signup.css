@@ -1,4 +1,4 @@
-.avatar{
+.avatar {
       width: 375px;
       height: 450px;
       background-color: #0073EA;
@@ -13,46 +13,67 @@ main {
       justify-content: center;
       align-items: center;
 }
-main > .avatar, 
-main > form{
+
+main>.avatar,
+main>form {
       margin: 0 20px;
 }
-.avatar > img{
+
+.avatar>img {
       position: absolute;
       filter: drop-shadow(-20px 10px 15px #fff4);
       top: 20px;
       right: 0;
 }
-main > form{
+
+main>form {
       width: 350px;
       display: flex;
       flex-direction: column;
 }
-main > form > h2{
+
+main>form>h2 {
       margin-bottom: 20px;
 }
-main > form > input,
-main > form > .togglePw{
+
+main>form>input,
+main>form>.togglePw {
       margin-bottom: 15px;
 }
-main > form > .togglePw{
+
+main>form>.togglePw {
       cursor: pointer;
       font-weight: 500;
       color: #808080;
 }
-main > form > h4,
-main > form > a{
+
+main>form>h4,
+main>form>a {
       align-self: center;
 }
-main > form > h4{
+
+main>form>h4 {
       margin-top: 15px;
       margin-bottom: 5px;
 }
-main > form > a{
+
+main>form>a {
       margin-top: 20px;
       color: #0073EA;
 }
-main > form > .otherAccount{
+
+main>form>.otherAccount {
+      display: flex;
+      justify-content: center
+}
+
+.oacc {
       display: flex;
       justify-content: center;
+      align-items: center;
+      margin: 0 5px;
+}
+
+.oacc *{
+      margin: 0 5px;
 }
