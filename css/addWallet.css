@@ -8,15 +8,15 @@ main>.container {
       align-items: stretch;
       width: 135vh;
 }
-.container > #tag{
+#tag{
       display: flex;
       justify-content: space-between;
       align-items: center;
 }
-#tag > a{
+#tag a{
       color: #0073EA;
 }
-.container > #tag > h2{
+#tag *{
       margin: 5px 0;
 }
 #header{
@@ -24,23 +24,24 @@ main>.container {
       height: 40vh;
       padding: 12px;
       border-radius: 20px;
-      background-color: #FFCB00;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-}
-#header *{
-      margin: 0;
+      margin-bottom: 20px;
+      background-color: #0073EA;
       color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 }
-#header > h3{
-      text-decoration: underline;
-      margin-bottom: 10px;
+#header > .left{
+      margin-left: 20px;
 }
-#header > h5{
-      font-size: 2em;
+#header > .left > *{
+      margin: 15px;
+}
+#header > .left > h3{
+      font-size: 3em;
+}
+#header > .left > h5{
+      font-size: 1.5em;
 }
 
 #payments{
