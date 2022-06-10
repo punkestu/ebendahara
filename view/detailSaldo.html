@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Bendahara | Pembayaran</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/postsidebar.css" />
+    <link rel="stylesheet" href="../css/detailSaldo.css" />
+  </head>
+  <body>
+    <header>
+      <div id="hamburger" onclick="show()">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2>Detail Saldo</h2>
+        <div id="header">
+          <h3>Saldo kamu</h3>
+          <h5>Rp. 10.000.000</h5>
+        </div>
+        <div id="payments">
+          <div class="payment">
+            <div class="segment s1">
+              <div class="icon">
+                <img src="../assets/ovo.png" alt="" />
+              </div>
+              <h5 class="iuran">OVO</h5>
+            </div>
+            <div class="segment s2">
+              <h5 class="dl">Sisa saldo: Rp. 100.000</h5>
+              <button class="btn btn-primary">Top up</button>
+            </div>
+          </div>
+          <div class="payment">
+            <div class="segment s1">
+              <div class="icon">
+                <img src="../assets/gopay.png" alt="" />
+              </div>
+              <h5 class="iuran">GoPay</h5>
+            </div>
+            <div class="segment s2">
+              <h5 class="dl">Sisa saldo: Rp. 100.000</h5>
+              <button class="btn btn-primary">Top up</button>
+            </div>
+          </div>
+          <div class="payment">
+            <div class="segment s1">
+              <div class="icon">
+                <img src="../assets/shopee.png" alt="" />
+              </div>
+              <h5 class="iuran">Shopee</h5>
+            </div>
+            <div class="segment s2">
+              <h5 class="dl">Sisa saldo: Rp. 100.000</h5>
+              <button class="btn btn-primary">Top up</button>
+            </div>
+          </div>
+        </div>
+        <div class="nav">
+          <a href="#" class="btn btn-primary">Tambah e-Wallet</a>
+        </div>
+      </div>
+    </main>
+    <div id="fog" class="fhide" onclick="show()"></div>
+    <div id="sidebar" class="shide">
+      <div class="menu">
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="./lBendahara.html">List Sistem</a>
+        <a href="#">Sistem Buatanmu</a>
+        <a href="./detailSaldo.html">Detail Saldo</a>
+        <a href="#">Riwayat</a>
+        <hr width="200" />
+        <a href="./plan.html">Plan</a>
+        <a href="#">About Us</a>
+      </div>
+      <div class="account">
+        <div class="profile">
+          <div class="avatar"></div>
+          <div class="data">
+            <div class="name">Bima Pangestu</div>
+            <div class="status status-premium">Premium</div>
+          </div>
+        </div>
+        <a href="./login.html" class="btn btn-danger">Logout</a>
+      </div>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

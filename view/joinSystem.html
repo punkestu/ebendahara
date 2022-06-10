@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-Bendahara | Dashboard</title>
+    <title>E-Bendahara | Gabung ke Sistem</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/postsidebar.css" />
-    <link rel="stylesheet" href="../css/dashboard.css" />
+    <link rel="stylesheet" href="../css/joinSystem.css" />
   </head>
   <body>
     <header>
@@ -19,34 +19,20 @@
     </header>
     <main>
       <div class="container">
-        <div id="banner">
-          <div id="images">
-            <img class="i" src="../assets/banner.png">
-            <img class="i bhide" src="../assets/Badrun 4.png">
-            <img class="i bhide" src="../assets/Badrun 5.png">
-          </div>
-          <div id="stepper">
-            <div class="step active" onclick="banner(0)"></div>
-            <div class="step" onclick="banner(1)"></div>
-            <div class="step" onclick="banner(2)"></div>
+        <div id="tag">
+          <a href="./lBendahara.html">&laquo; Kembali ke daftar bendahara</a>
+        </div>
+        <div id="header">
+          <div class="left">
+            <h3>Gabung ke sistem</h3>
+            <h5>Mulailah pengelolaan keuangan yang baik hari ini</h5>
           </div>
         </div>
-        <div class="menu">
-          <div id="tagihan">
-            <h2>Tagihan Kamu</h2>
-            <a href="./payment.html" class="ltagihan">
-              <div class="name">Kas Angkatan</div>
-              <div class="dl">27 Agustus 2022</div>
-            </a>
-            <a href="./lBendahara.html" class="btn btn-green-inv">Tagihan lain</a>
-          </div>
-          <div id="saldo">
-            <img src="../assets/rp.png" />
-            <h2>Saldo Kamu</h2>
-            <h3>Rp. 10.000.000</h3>
-            <a href="./detailSaldo.html" class="btn btn-yellow-inv">Detail Saldo</a>
-          </div>
-        </div>
+        <form action="./lBendahara.html">
+              <h2>Kode sistem</h2>
+              <input type="text" name="kode" id="kode" placeholder="Kode">
+              <button type="submit" class="btn btn-primary">Gabung</button>
+        </form>
       </div>
     </main>
     <div id="fog" class="fhide" onclick="show()"></div>

@@ -1,0 +1,87 @@
+main {
+      display: flex;
+      justify-content: center;
+}
+main>.container {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      width: 135vh;
+}
+.container > h2{
+      margin: 5px 0;
+}
+#header{
+      width: 100%;
+      height: 40vh;
+      padding: 12px;
+      border-radius: 20px;
+      background-color: #FFCB00;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+#header *{
+      margin: 0;
+      color: white;
+}
+#header > h3{
+      text-decoration: underline;
+      margin-bottom: 10px;
+}
+#header > h5{
+      font-size: 2em;
+}
+
+#payments{
+      width: 100%;
+      margin: 10px 0;
+      padding: 0 12px;
+      height: 30vh;
+      overflow-y: scroll;
+}
+.payment{
+      padding: 6px 12px;
+      margin: 13px 0;
+      border-radius: 10px;
+
+      background-color: #C4C4C438;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.segment{
+      display: flex;
+      align-items: center;
+}
+.segment > .icon{
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+}
+.icon > img{
+      width: inherit;
+      height: inherit;
+      object-fit: contain;
+}
+.segment > h5{
+      font-size: 1em;
+      margin: 0;
+}
+.s2 > h5{
+      font-weight: lighter;
+}
+.segment > button{
+      padding: 8px 16px;
+      margin-left: 10px;
+}
+.container > .nav{
+      display: flex;
+      justify-content: center;
+}
+.container > .nav > a{
+      width: 50%;
+      text-align: center;
+}
