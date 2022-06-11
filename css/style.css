@@ -29,6 +29,7 @@ header{
       padding: 10px 20px;
       border-radius: 10px;
       font-weight: 700;
+      cursor: pointer;
 }
 
 .btn-primary{
@@ -69,6 +70,12 @@ header{
 }
 .btn-danger:hover{
       background-color: #B63546;
+}
+
+.btn-disabled{
+      background-color: none;
+      color: #808080;
+      cursor: not-allowed;
 }
 
 .shade{
