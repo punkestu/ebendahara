@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Bendahara | List Bendahara</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/postsidebar.css" />
+    <link rel="stylesheet" href="../css/lBendahara.css" />
+  </head>
+  <body>
+    <header>
+      <div id="hamburger" onclick="show()">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div id="tag" style="margin-bottom: 10px">
+          <a href="./yourSystem.html">&laquo;Kembali ke list sistemmu</a>
+        </div>
+        <div id="header" style="background-color: #0073ea; height: 30vh; margin-bottom: 20px;">
+          <h1 style="font-size: 3em">Kas Angkatan</h1>
+          <h3 style="text-decoration: none; margin: 10px 0">
+            Untuk mengatur keuangan angkatan kita BANZAAIIII....
+          </h3>
+          <h3
+            style="text-decoration: none; margin: 10px 0; font-weight: lighter"
+          >
+            Kode : #ANGKATAN123
+          </h3>
+        </div>
+        <div class="data" style="display: flex; justify-content: space-evenly; margin-left: 20px;">
+          <div class="left" style="width: 40%;">
+            <label for="nom">Nominal iuran</label>
+            <h1 name="nom" style="margin-top: 6px;">Rp. 50.000</h1>
+            <label for="nom">Periode pembayaran</label>
+            <h1 name="nom" style="margin-top: 6px;">1 bulan</h1>
+          </div>
+          <div class="right" style="width: 50%;">
+            <div class="members" style="height: 40vh; overflow-y: scroll; background-color: #C4C4C438; padding: 10px; border-radius: 20px; display: flex; flex-direction: column; align-items: center;">
+              <h2>Anggota</h2>
+              <hr width="300"/>
+              <div class="profile">
+                <div class="avatar"></div>
+                <div class="data">
+                  <div class="name">Bima Pangestu</div>
+                  <div class="status">Admin</div>
+                </div>
+              </div>
+              <div class="profile">
+                  <div class="avatar"></div>
+                  <div class="data">
+                    <div class="name">Bima Pangestu</div>
+                    <div class="status">Admin</div>
+                  </div>
+                </div>
+                <div class="profile">
+                  <div class="avatar"></div>
+                  <div class="data">
+                    <div class="name">Bima Pangestu</div>
+                    <div class="status">Admin</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="fog" class="fhide" onclick="show()"></div>
+    <div id="sidebar" class="shide">
+      <div class="menu">
+        <a href="./dashboard.html">Dashboard</a>
+        <a href="./lBendahara.html">List Sistem</a>
+        <a href="./yourSystem.html">Sistem Buatanmu</a>
+        <a href="./detailSaldo.html">Detail Saldo</a>
+        <a href="#">Riwayat</a>
+        <hr width="200" />
+        <a href="./plan.html">Plan</a>
+        <a href="#">About Us</a>
+      </div>
+      <div class="account">
+        <div class="profile">
+          <div class="avatar"></div>
+          <div class="data">
+            <div class="name">Bima Pangestu</div>
+            <div class="status status-premium">Premium</div>
+          </div>
+        </div>
+        <a href="./login.html" class="btn btn-danger">Logout</a>
+      </div>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

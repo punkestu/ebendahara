@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-Bendahara | Pembayaran</title>
+    <title>E-Bendahara | List Bendahara</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/postsidebar.css" />
-    <link rel="stylesheet" href="../css/payment.css" />
+    <link rel="stylesheet" href="../css/lBendahara.css" />
   </head>
   <body>
     <header>
@@ -20,56 +20,51 @@
     <main>
       <div class="container">
         <div id="tag">
-          <a href="./lBendahara.html">&laquo; Kembali ke daftar bendahara</a>
+          <h2>Sistemmu</h2>
+          <a href="./dashboard.html">&laquo;Kembali ke dashboard</a>
         </div>
-        <div id="header">
-          <div class="left">
-            <h2>Pilih metode pembayaran</h2>
-            <h3>Kas Angkatan</h3>
-            <h5>Rp. 50.000</h5>
+        <div id="header" style="background-color: #0073EA;">
+          <h3>Jumlah sistem yang kamu buat</h3>
+          <h1 style="font-size: 6em;">4</h1>
+        </div>
+        <div id="lBendahara">
+          <div class="eBendahara">
+            <div class="segment s1">
+              <h4 class="namaB">Kas Angkatan</h4>
+            </div>
+            <div class="segment s2">
+              <a href="./detail.html" class="btn btn-primary">Rincian</a>
+            </div>
           </div>
-          <div class="right">
-            <label for="kode">Kode</label>
-            <input type="text" name="kode" id="kode" placeholder="kode" />
+          <div class="eBendahara">
+            <div class="segment s1">
+              <h4 class="namaB">Kas Angkatan</h4>
+            </div>
+            <div class="segment s2">
+              <a href="./detail.html" class="btn btn-primary">Rincian</a>
+            </div>
+          </div>
+          <div class="eBendahara">
+            <div class="segment s1">
+              <h4 class="namaB">Kas Angkatan</h4>
+            </div>
+            <div class="segment s2">
+              <a href="./detail.html" class="btn btn-primary">Rincian</a>
+            </div>
+          </div>
+          <div class="eBendahara">
+            <div class="segment s1">
+              <h4 class="namaB">Kas Angkatan</h4>
+            </div>
+            <div class="segment s2">
+              <a href="./detail.html" class="btn btn-primary">Rincian</a>
+            </div>
           </div>
         </div>
-        <div id="payments">
-          <div class="payment">
-            <div class="segment s1">
-              <div class="icon">
-                <img src="../assets/ovo.png" alt="" />
-              </div>
-              <h5 class="iuran">OVO</h5>
-            </div>
-            <div class="segment s2">
-              <h5 class="dl">Sisa saldo: Rp. 100.000</h5>
-              <button class="btn btn-primary">Pilih</button>
-            </div>
-          </div>
-          <div class="payment">
-            <div class="segment s1">
-              <div class="icon">
-                <img src="../assets/gopay.png" alt="" />
-              </div>
-              <h5 class="iuran">GoPay</h5>
-            </div>
-            <div class="segment s2">
-              <h5 class="dl">Sisa saldo: Rp. 100.000</h5>
-              <button class="btn btn-primary">Pilih</button>
-            </div>
-          </div>
-          <div class="payment">
-            <div class="segment s1">
-              <div class="icon">
-                <img src="../assets/shopee.png" alt="" />
-              </div>
-              <h5 class="iuran">Shopee</h5>
-            </div>
-            <div class="segment s2">
-              <h5 class="dl">Sisa saldo: Rp. 100.000</h5>
-              <button class="btn btn-primary">Pilih</button>
-            </div>
-          </div>
+        <div id="nav">
+          <a href="./createSystem.html" class="btn shade btn-primary"
+            >Buat bendahara baru</a
+          >
         </div>
       </div>
     </main>
